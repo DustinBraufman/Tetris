@@ -8,9 +8,15 @@ body {
     margin: 0 auto;
 }
 
+.bar {
+    text-align: center;
+    background: #8BC2A8;
+}
 
-
-.bar{
+.bar a {
 color: white;
-
+text-decoration: none;
+text-align: center;
+display: inline-block;
+font-family: 'Archivo Black', sans-serif;
 }

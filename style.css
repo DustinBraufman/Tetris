@@ -1,16 +1,25 @@
 body {
-    background-color: black;
+    background-image:url(images/tetrisbackground1.png);
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 .Logo {
     width: 400px;
-    padding-bottom: 45px;
+    padding-top: .7%;
+    padding-bottom: .7%;
     margin: 0 auto;
 }
 
 .bar {
     text-align: center;
     background: #8BC2A8;
+    word-spacing: 55px;
+    font-size: large;
+    /* z-index: 999; */
+    width: 100%;
+    position: fixed;
+    
 }
 
 .bar a {
@@ -19,4 +28,5 @@ text-decoration: none;
 text-align: center;
 display: inline-block;
 font-family: 'Archivo Black', sans-serif;
+
 }

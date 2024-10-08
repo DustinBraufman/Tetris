@@ -36,10 +36,16 @@ font-family: 'Archivo Black', sans-serif;
     font-family: "stevie-sans", sans-serif;
     color: black;
     margin-top: 100px;
+    max-width: 900px;
     text-align: center;
+    /* word-wrap: break-word; */
+    /* overflow-wrap: break-word; */
+  
 }
 
-.founder{
+.left{
 display: flex;
-
+justify-content: left;
+padding-left: 20px;
 }
+

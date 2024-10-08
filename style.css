@@ -33,7 +33,13 @@ font-family: 'Archivo Black', sans-serif;
 }
 
 .text{
-    font-family: 'Chivo Mono', monospace;
+    font-family: "stevie-sans", sans-serif;
     color: black;
     margin-top: 100px;
+    text-align: center;
+}
+
+.founder{
+display: flex;
+
 }

@@ -1,13 +1,16 @@
 body {
     background-image:url(images/tetrisbackground1.png);
-    background-size: cover;
-    background-repeat: repeat;
+    background-repeat: repeat; /* Repeat both horizontally and vertically */
+    background-attachment: fixed; /* Ensures the background stays in place as you scroll */
+    background-size: cover; /* Ensures the background does not resize */
     margin: 0px;
+    overflow: scroll;
+    
 }
 
 .Logo {
     width: 400px;
-    padding-top: .7%;
+    padding-top: 1%;
     padding-bottom: 1%;
     margin: 0 auto;
 }
@@ -17,10 +20,12 @@ body {
     background: #8BC2A8;
     word-spacing: 55px;
     font-size: large;
-    /* z-index: 999; */
+    z-index: 999;
     width: 100%;
-    position: fixed;
-    line-height: 3px;
+    position: sticky;
+    line-height: 40px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
     
 }
 
@@ -35,30 +40,31 @@ font-family: 'Archivo Black', sans-serif;
 
 .text{
     font-family: "stevie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
     font-size: larger;
     color: black;
     /* margin-top: 100px; */
     max-width: 850px;
     text-align: center;
-    /* word-wrap: break-word; */
-    /* overflow-wrap: break-word; */
-  
+  line-height: 1.5;
 }
 
 .left{
-/* display: flex;
-justify-content: left; */
-padding-left: 20px;
-margin-top: 70px;
+display: flex;
+justify-content: flex-end;
+padding-right: 20px;
+margin-top: 30px;
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 600px 1fr;
 /* margin-bottom: 20px;
 padding-bottom: 20px; */
 row-gap: 5px;
 align-items: center;
-margin-top: 75px;
+margin-top: 0px;
+padding-top: 0%;
 }
 

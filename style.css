@@ -59,12 +59,26 @@ padding-right: 20px;
 margin-top: 30px;
 }
 
+.left1{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    margin-top: 30px;
+    }
+
 .right{
     display: flex;
     justify-content: flex-start;
     padding-left: 20px;
     margin-top: 30px;
     }
+
+    .right1{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 40px;
+        margin-top: 30px;
+        }
 
 .grid-container{
     display: grid;

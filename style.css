@@ -5,6 +5,7 @@ body {
     background-size: cover; /* Ensures the background does not resize */
     margin: 0px;
     overflow: scroll;
+    padding-bottom: 100px;
     
 }
 
@@ -20,7 +21,8 @@ body {
     background: #8BC2A8;
     word-spacing: 55px;
     font-size: large;
-    z-index: 999;
+    z-index: 100;
+    top: 0;
     width: 100%;
     position: sticky;
     line-height: 40px;
@@ -56,6 +58,13 @@ justify-content: flex-end;
 padding-right: 20px;
 margin-top: 30px;
 }
+
+.right{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-top: 30px;
+    }
 
 .grid-container{
     display: grid;
